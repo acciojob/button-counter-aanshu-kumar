@@ -6,7 +6,7 @@ const App = () => {
   let [click, setClick] = React.useState(0);
   return (
     <div>
-        <p>Button clicked {click} times.</p>
+        <p>Button clicked {click} times</p>
         <button onClick={()=>setClick(click+1)}>Click me</button>
     </div>
   )
